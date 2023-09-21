@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.6",
     "postcss-import": "^15.1.0"
   }
 }
