@@ -5,5 +5,9 @@
   },
   "devDependencies": {
     "chokidar": "^3.5.3"
+  },
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "build:css": "tailwindcss --postcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css"
   }
 }
