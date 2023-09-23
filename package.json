@@ -10,5 +10,7 @@
   "scripts": {
     "build": "node esbuild.config.js",
     "build:css": "tailwindcss --postcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css"
-  }
+  },
+  "@hotwired/stimulus": "^3.1.0",
+  "stimulus": "npm:@hotwired/stimulus"
 }
