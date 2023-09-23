@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@tailwindcss/forms": "^0.5.6",
+    "mrujs": "^1.0.0",
     "postcss-import": "^15.1.0",
     "stimulus_reflex": "3.5.0-pre8"
   },
